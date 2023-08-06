@@ -1,0 +1,25 @@
+<div class="new slider-new d-flex  flex-column  flex-md-row  align-news-stretch  rounded ">
+    <!-- image -->
+    <div class="col-lg-6 ">
+        <img src="{{new.urlToImage ? new.urlToImage : 'https://picsum.photos/500/450'}}" alt="New Photo">
+    </div>
+    <!-- new -->
+    <div class="content col-lg-6 d-flex flex-column justify-content-center align-items-center gap-3 bg-gray p-lg-4 p-2">
+        <!-- title -->
+        <div>
+            <h4 class="fw-light text-secondary">Editor's Pick</h4>
+            <h2 class="fw-bold">{{new.title}}</h2>
+        </div>
+    
+        <!-- new desc -->
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione consequuntur dolore quia asperiores qui cupiditate vitae rerum hic in ipsa, tempore, recusandae omnis? Assumenda, minus.
+        </p>
+    
+        <!-- new footer -->
+        <div class="d-flex flex-row gap-2 fw-bolder">
+            <p class="text-secondary fw-light ">{{new.publishedAt?.slice(0,10)}}</p>
+            <p>{{new.author}}</p>
+        </div>
+    </div>
+    </div>

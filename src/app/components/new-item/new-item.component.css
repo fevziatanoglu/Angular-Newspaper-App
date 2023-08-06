@@ -1,0 +1,43 @@
+.new{
+    background-color: rgb(224, 210, 210);
+    height : 150px;
+}
+
+.new img{
+    height: 100%;
+    width : auto;
+}
+
+.content{
+    height : 100%;
+}
+
+.content h2{
+    font-size: .9rem;
+}
+
+.content p{
+    font-size: .7rem;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .content h2{
+    font-size: .8rem;
+}
+
+.new{
+    height : 65vh;
+}
+
+.new img{
+    height: auto;
+    width : 100%;
+}
+
+.content p{
+    font-size: .5rem;
+}
+}

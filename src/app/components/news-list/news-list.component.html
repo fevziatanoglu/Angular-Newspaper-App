@@ -1,0 +1,8 @@
+
+<div *ngIf="news.length">
+<h1 class="text-center mt-5 mb-4">{{this.title}} news</h1>
+
+<div class="d-flex flex-row justify-content-center align-items-center gap-5">
+    <app-pagination [news]="news" [perItemForPage]="6" ></app-pagination>
+</div>
+</div>

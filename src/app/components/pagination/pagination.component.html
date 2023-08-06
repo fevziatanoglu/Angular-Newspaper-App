@@ -1,0 +1,16 @@
+<div class="d-flex flex-column flex-lg-row row p-5">
+
+<div class="my-2 d-flex col-md-6" *ngFor="let new of pageNews">
+    <app-new-item [new]="new"></app-new-item>
+</div>
+
+
+</div>
+
+ <!-- pegination  buttons -->
+ <div class=" d-flex justify-content-center gap-2 p-5">
+    <button *ngFor="let number of getPageAmount()" value="{{number}}" (click)="setPaginationPage(number)"
+        [class.active-button]="this.currentPaginationPage === number" class="btn btn-dark fw-bolder">
+        {{number}}
+    </button>
+</div>

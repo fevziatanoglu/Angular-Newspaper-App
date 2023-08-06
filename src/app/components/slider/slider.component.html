@@ -1,0 +1,21 @@
+
+<!-- wrapper -->
+<div class="wrapper d-flex flex-row justify-content-between align-items-center mt-5">
+    <!-- left button -->
+    <button class="btn btn-secondary fs-5" (click)="sliderLeft()">
+        <i class="fa-solid fa-left-long"></i>
+    </button>
+    <!-- slider -->
+    <div [style.transform]=" 'translateX(' +  sliderTransform  + 'vw)' " class="slider d-flex justify-content-between align-items-center mb-5">
+        <!-- slider item -->
+        <div *ngFor="let new of news" class="new-div d-flex justify-content-center align-items-center">
+            <!-- slider new -->
+            <app-new-slider-item [new] ="new"></app-new-slider-item>
+        </div>
+       
+    </div>
+    <!-- right button -->
+    <button class="btn btn-secondary fs-5" (click)="sliderRight()">
+        <i class="fa-solid fa-right-long"></i>
+    </button>
+</div>

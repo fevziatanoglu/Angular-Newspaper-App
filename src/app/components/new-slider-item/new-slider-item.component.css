@@ -1,0 +1,39 @@
+.new{
+    height : 60vh;
+    width : 70vw;
+    background-color: rgb(224, 210, 210);
+}
+
+.new img{
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    height : 100%;
+}
+
+.content h2{
+    font-size: 2rem;
+}
+
+.content p{
+    font-size: 1.3rem;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .content h2{
+    font-size: .9rem;
+}
+
+.new{
+    height : 65vh;
+}
+
+.content p{
+    font-size: .6rem;
+}
+}

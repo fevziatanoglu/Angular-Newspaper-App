@@ -1,0 +1,23 @@
+<app-loading-screen *ngIf="isLoading"></app-loading-screen>
+
+<div class="main-div d-flex flex-column flex-md-row">
+    <!-- filter -->
+    <div class="filter d-flex flex-md-column  gap-md-5  p-md-3 rounded">
+        <div *ngFor="let category of categories"
+            class="filter-input d-flex  gap-5 justify-content-between form-check form-switch ">
+            <label class="text-uppercase fw-bolder text-secondary ">{{ category }}</label>
+            <input class="form-check-input fs-lg-5 bg-secondary" value="{{category}}" type="checkbox"
+                (change)="categoriesOnChange($event)">
+        </div>
+    </div>
+    <!-- news -->
+    <app-news-list class="news" [news]="news"></app-news-list>
+</div>
+
+
+
+
+
+
+
+

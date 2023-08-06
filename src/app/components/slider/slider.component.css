@@ -1,0 +1,32 @@
+
+.new-div {
+    width: 100vw;
+}
+
+.slider {
+    overflow: show !important;
+    position: absolute;
+    transition: all .5s ease-in-out;
+}
+
+.wrapper {
+    position: relative;
+    height: 60vh;
+    overflow-x: hidden;
+}
+
+button{
+    z-index: 1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+@media (max-width: 600px) {
+    
+    button{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+  }

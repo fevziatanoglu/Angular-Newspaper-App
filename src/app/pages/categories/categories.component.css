@@ -1,0 +1,54 @@
+
+.main-div{
+    position: relative;
+}
+
+.filter{
+    position: sticky;
+    margin-top: 50px;
+    top: 100px;
+    left: 20px;
+    height: 500px;
+    width: 250px;
+    flex:1/2;
+}
+
+
+.news{
+    flex:1;
+}
+
+
+
+
+@media (max-width: 600px) {
+.filter{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    flex: none;
+    
+    display: flex;
+   flex-wrap: wrap;
+   width: 100vw;
+   height: auto;
+   justify-content: center;
+    gap: .5rem;
+
+   font-size: .7rem;
+}
+
+.filter-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.news{
+    flex:none;
+}
+
+}

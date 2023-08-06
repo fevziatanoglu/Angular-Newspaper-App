@@ -1,0 +1,9 @@
+
+<app-loading-screen *ngIf="isLoading"></app-loading-screen>
+<app-news-list *ngIf="news.length > 0" [news]="news" [title]="query"></app-news-list>
+
+
+<div *ngIf="!news.length && !isLoading" class="d-flex flex-column text-center mt-5 justify-content-center align-items-center display-3 fw-bolder">
+  <p>There is no news related to {{query}},</p>  
+  <p>You can search something else.</p>
+</div>
