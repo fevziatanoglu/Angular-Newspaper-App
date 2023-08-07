@@ -1,27 +1,59 @@
 # AngularNewspaper
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+![image](https://github.com/fevziatanoglu/Angular-Newspaper-App/assets/95905332/8d082c97-0037-46c7-8933-24069f9de524)
+  
+**Description:**
+The Angular Newspaper App is a web application built using Angular that allows users to read and browse the latest news articles from api. It provides a user-friendly interface where users can discover news stories, read in-depth articles, and stay updated with current events.
 
-## Development server
+**Features:**
+Display News : Find latest news came from api.
+Filter Articles: Access a wide range of news articles from different categories.
+Search Functionality: Search for specific news articles by keywords or topics.
+Responsive Design: Enjoy a seamless experience across different devices.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Usage:
 
-## Code scaffolding
+**Home Page:**
+The home page displays a list of the latest news articles from various categories and top three news on a slider.
+**Search Page:**
+Use the search bar to find news articles related to specific topics or keywords.
+Press Enter or click the search icon to perform the search.
+**Categories Page:**
+The Categories page displays list of related news and a category filter. Use the filter to find news related to selected categories.
+**Category Page:**
+The category page contains a list of news related to page's category.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Installation:**
 
-## Running end-to-end tests
+Clone the repository:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+bash
+Copy code
+git clone https://github.com/fevziatanoglu/Angular-Newspaper-App.git
+Navigate to the project directory:
 
-## Further help
+bash
+Copy code
+cd Angular-Newspaper-App
+Install the dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Copy code
+npm install
+Start the development server:
+
+Copy code
+ng serve
+Open your web browser and visit http://localhost:4200/ to access the app.
+
+
+
+
+**Contributing:**
+
+Contributions are welcome! If you find any issues or have improvements to suggest, please open an issue or create a pull request.
+
+
