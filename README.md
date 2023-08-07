@@ -40,26 +40,29 @@ The category page contains a list of news related to page's category.
 
 ## Installation:
 
-Clone the repository:
+1. Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/fevziatanoglu/Angular-Newspaper-App.git
-Navigate to the project directory:
+   ```
+   git clone https://github.com/fevziatanoglu/Angular-Newspaper-App.git
+   ```
 
-bash
-Copy code
-cd Angular-Newspaper-App
-Install the dependencies:
+2. Navigate to the project directory:
 
-Copy code
-npm install
-Start the development server:
+   ```
+   cd Angular-Calculator-App
+   ```
 
-Copy code
-ng serve
-Open your web browser and visit http://localhost:4200/ to access the app.
+3. Install the dependencies:
 
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```
+   ng serve
+   ```
 
 
 
