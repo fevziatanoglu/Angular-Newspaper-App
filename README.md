@@ -6,17 +6,16 @@
 
 The Angular Newspaper App is a web application built using Angular that allows users to read and browse the latest news articles from api. It provides a user-friendly interface where users can discover news stories, read in-depth articles, and stay updated with current events.
 
-**Features:**
+## Features:
 
-Display News : Find latest news came from api.
+**Display News:** Find latest news came from api.
 
-Filter Articles: Access a wide range of news articles from different categories.
+**Filter Articles:** Access a wide range of news articles from different categories.
 
-Search Functionality: Search for specific news articles by keywords or topics.
+**Search Functionality:** Search for specific news articles by keywords or topics.
 
-Responsive Design: Enjoy a seamless experience across different devices.
 
-Usage:
+## Usage:
 
 **Home Page:**
 
@@ -39,7 +38,7 @@ The category page contains a list of news related to page's category.
 
 
 
-**Installation:**
+## Installation:
 
 Clone the repository:
 
